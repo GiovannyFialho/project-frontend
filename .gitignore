@@ -1,0 +1,7 @@
+# Files
+*.DS_Store
+*.log
+
+# Directories
+build/
+node_modules/

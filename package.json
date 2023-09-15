@@ -1,0 +1,24 @@
+{
+  "name": "project-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GiovannyFialho/project-frontend.git",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn gulp",
+    "build": "yarn gulp build"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "cssnano": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "postcss": "^8.4.29",
+    "prettier": "^3.0.3",
+    "sass": "^1.67.0"
+  }
+}

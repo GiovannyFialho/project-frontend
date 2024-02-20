@@ -33,7 +33,7 @@
           font-weight: 400;
           margin: 0 auto;
           padding: 15px 10px;
-          border: 1px solid #333;
+          border: 1px solid $grey;
         }
 
         button {
@@ -45,11 +45,11 @@
           font-weight: 400;
           color: #fff;
           padding: 10px 30px;
-          background-color: #444;
+          background-color: $dark-grey;
           border: none;
-          transition: all;
+          transition: all 0.2s ease-in-out;
           &:hover {
-            background-color: #111;
+            background-color: $dark-grey-hover;
           }
         }
       }

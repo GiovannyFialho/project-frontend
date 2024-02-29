@@ -5,8 +5,8 @@
   "repository": "git@github.com:GiovannyFialho/project-frontend.git",
   "license": "MIT",
   "scripts": {
-    "watch": "yarn gulp",
-    "build": "yarn gulp build"
+    "watch": "gulp",
+    "build": "gulp build"
   },
   "dependencies": {
     "autoprefixer": "^10.4.15",

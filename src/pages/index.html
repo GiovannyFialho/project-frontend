@@ -4,41 +4,184 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
+    <title>Projeto Front-end</title>
+
+    <!-- Libs -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Libs -->
+
     <link rel="stylesheet" href="../build/css/style.min.css" />
   </head>
   <body>
-    <div class="lea">
+    <header class="header-container">
       <nav>
-        <a href="">Destaques</a>
-        <a href="">sobre</a>
-        <a href="">localização</a>
+        <a href="#about">Sobre</a>
+        <a href="#highlights">Destaques</a>
+        <a href="#location">Localização</a>
       </nav>
-    </div>
-    <div class="est">
-      <h1><p>Estrutura HTML</p></h1>
-    </div>
-    <hr />
-    <div class="sli">
-      <br />
-      <p>Nesse espaço ficara o slider</p>
-    </div>
-    <hr />
-    <div class="img">
-      <img src="img/log.png" alt="" id="img" />
-      <p>acima tem uma imagem do logo HTML, e aqui é a parte do texto</p>
-    </div>
-    <hr />
-    <div class="map">
-      <p>nesse espaço ficara o mapa</p>
-    </div>
-    <hr />
-    <footer>
-      <a href="" class="foo">Neste</a>
-      <a href="" class="foo">espaço</a>
-      <a href="" class="foo">o rodapé</a>
+    </header>
 
-      <script src="../build/js/script.min.js"></script>
+    <section class="section-about" id="about">
+      <h2 class="title-section">Sobre</h2>
+
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quibusdam id minima architecto, suscipit quos iusto pariatur aliquam
+          aspernatur reiciendis optio quisquam similique nulla inventore officia
+          magni quas provident aliquid.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quibusdam id minima architecto, suscipit quos iusto pariatur aliquam
+          aspernatur reiciendis optio quisquam similique nulla inventore officia
+          magni quas provident aliquid.
+        </p>
+
+        <div class="container-img">
+          <img src="../img/dev.jpg" alt="img representativa" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-slider">
+      <h2 class="title-section">Bagres</h2>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container-img">
+              <img
+                src="../img/abel-e1649413702461.jpg"
+                alt="ABEL"
+                title="ABEL"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="container-img">
+              <img
+                src="../img/YURI-ALBERTO.jpg"
+                alt="YURI-ALBERTO"
+                title="YURI-ALBERTO"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <section class="section-highlights" id="highlights">
+      <h2 class="title-section">Destaques</h2>
+
+      <div class="container">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy. Various versions have evolved over the years, sometimes by
+          accident, sometimes on purpose (injected humour and the like).
+        </p>
+
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32.
+        </p>
+
+        <p>
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+          below for those interested. Sections 1.10.32 and 1.10.33 from "de
+          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+          exact original form, accompanied by English versions from the 1914
+          translation by H. Rackham.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-location" id="location">
+      <h2 class="title-section">Localização</h2>
+
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.9676688438167!2d-46.5497957!3d-23.497673999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f98d4638e35%3A0x7a01db20e03c328f!2sR.%20Ana%20da%20Silva%20-%20Guarulhos%2C%20SP%2C%2007031-210!5e0!3m2!1spt-BR!2sbr!4v1699897448475!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="section-predict-age">
+      <h2 class="title-section">Qual é a sua idade?</h2>
+
+      <div class="container-predict-age">
+        <p>
+          Insira o seu nome e tentamos adivinhar a sua idade baseado no seu
+          primeiro nome 😆
+        </p>
+
+        <div class="container-predict-age-component">
+          <div class="container-predict-age-component-input">
+            <input type="text" id="user-name" placeholder="Fulano" />
+
+            <button type="button">Enviar</button>
+          </div>
+
+          <div class="container-predict-age-component-result"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="links">
+        <a href="#about">Sobre</a>
+        <a href="#highlights">Destaques</a>
+        <a href="#location">Localização</a>
+      </div>
     </footer>
+
+    <!-- Libs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Libs -->
+
+    <script src="../build/js/script.min.js"></script>
   </body>
 </html>

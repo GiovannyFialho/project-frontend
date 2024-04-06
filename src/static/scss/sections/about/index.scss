@@ -1,0 +1,21 @@
+.section-about {
+  .container {
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    .container-img {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+      img {
+        width: 900px;
+        height: 500px;
+        object-fit: cover;
+        box-shadow: 5px 5px 10px #333;
+      }
+    }
+  }
+}

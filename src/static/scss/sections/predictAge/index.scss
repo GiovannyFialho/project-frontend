@@ -1,0 +1,70 @@
+.section-predict-age {
+  .container-predict-age {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    &-component {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      &-input {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+
+        input {
+          width: 100%;
+          font-size: 16px;
+          line-height: 18px;
+          font-weight: 400;
+          margin: 0 auto;
+          padding: 15px 10px;
+          border: 1px solid $grey;
+        }
+
+        button {
+          cursor: pointer;
+          width: max-content;
+          height: 50px;
+          font-size: 16px;
+          line-height: 18px;
+          font-weight: 400;
+          color: $white;
+          padding: 10px 30px;
+          background-color: $dark-grey;
+          border: none;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            background-color: $dark-grey-hover;
+          }
+        }
+      }
+
+      &-result {
+        p {
+          font-size: 20px;
+          line-height: 22px;
+          font-weight: 300;
+          span {
+            font-weight: 500;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
